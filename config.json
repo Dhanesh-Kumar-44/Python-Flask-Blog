@@ -1,0 +1,19 @@
+{
+  "params": {
+    "local_server": "True",
+    "local_uri": "mysql+pymysql://root:@localhost/codingthunder",
+    "prod_uri": "mysql+pymysql://root:@localhost/codingthunder",
+    "fb_url": "https://facebook.com/",
+    "tw_url": "https://facebook.com/",
+    "gh_url": "https://facebook.com/",
+    "blog_name": "Coding Thunder",
+    "user_email": "",
+    "password": "",
+    "about_text":"Hi my name is dhanesh and i am learnt Flask",
+    "no_of_posts": 5,
+    "admin_user": "admin",
+    "admin_password": "admin",
+    "upload_location": "//home//marketiq//Desktop//Flask_tut//uploaded files",
+    "no_of_posts": 2
+  }
+}

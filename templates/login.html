@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{%block body %} 
+
+<style type="text/css">
+    
+    padding-left: 394px;
+    padding-right: 394px;
+
+</style>
+
+  <div class="text-center padded">
+    
+<main class="form-signin w-100 m-auto">
+  <form action="/dashboard" method="post">
+    <img class="mb-4" src="{{ url_for('static',filename='assets/img/home-bg.jpg')}}" alt="" width="72" height="57">
+    <h1 class="h3 mb-3 fw-normal">Admin Login</h1>
+
+    <div class="form-floating">
+      <input type="text" name="uname" class="form-control" id="uname" placeholder="UserName">
+      <label for="floatingInput">UserName</label>
+    </div>
+    <div class="form-floating">
+      <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password">
+      <label for="floatingPassword">Password</label>
+    </div>
+
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> Remember me
+      </label>
+    </div>
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+    <p class="mt-5 mb-3 text-muted">&copy; {{params['blogname']}} 2017–2022</p>
+  </form>
+</main>
+
+
+    
+  </div>
+<!-- </html> -->
+{% endblock %}
